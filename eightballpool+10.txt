@@ -1,3 +1,4 @@
+gg.setRanges(gg.REGION_C_BSS)
 gg.searchNumber("1075734118", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 
 revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -10,5 +11,6 @@ for i, v in ipairs(t) do
 end
 gg.addListItems(t)
 t = nil
+gg.cleatResults()
 gg.alert('Aim mod 10 active')
 gg.alert('Hapus value tersimpan sebelum pindah Mod')
