@@ -10,3 +10,5 @@ for i, v in ipairs(t) do
 end
 gg.addListItems(t)
 t = nil
+gg.alert('Aim mod long line active')
+gg.alert('Hapus value tersimpan sebelum pindah Mod')
